@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.utils.class_weight import compute_class_weight
 
 
-st.title("🔍 نموذج التنبؤ بخطر الإصابة بأمراض القلب")
+st.title("التنبؤ بخطر الإصابة بأمراض القلب")
 
 @st.cache_data
 def load_data():
